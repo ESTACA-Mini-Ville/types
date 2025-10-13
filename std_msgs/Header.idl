@@ -1,0 +1,7 @@
+struct Header_t
+{
+    unsigned long seq;
+    unsigned long stamp_secs;
+    unsigned long stamp_nsecs;
+    string frame_id;
+};

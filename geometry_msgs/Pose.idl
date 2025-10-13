@@ -1,0 +1,8 @@
+#include "Point.idl"
+#include "Quaternion.idl"
+
+struct Pose_t
+{
+    Point_t position;
+    Quaternion_t orientation;
+};

@@ -1,0 +1,7 @@
+#include "Pose.idl"
+
+struct PoseWithCovariance_t
+{
+    Pose_t pose;
+    double covariance[36];
+};

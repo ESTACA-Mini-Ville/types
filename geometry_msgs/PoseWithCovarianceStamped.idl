@@ -1,0 +1,9 @@
+#include "../std_msgs/Header.idl"
+#include "PoseWithCovariance.idl"
+
+struct PoseWithCovarianceStamped
+{
+    Header_t header;
+    string robot_id;
+    PoseWithCovariance_t pose;
+};
