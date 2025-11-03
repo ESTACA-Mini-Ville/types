@@ -1,0 +1,8 @@
+#include "Vector3.idl"
+
+struct Twist
+{
+    string robot_id;
+    Vector3_t linear;
+    Vector3_t angular;
+};
