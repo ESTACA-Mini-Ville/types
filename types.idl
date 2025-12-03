@@ -1,2 +1,3 @@
 #include "./geometry_msgs/PoseWithCovarianceStamped.idl"
 #include "./geometry_msgs/Twist.idl"
+#include "./miniville_msgs/Destination.idl"

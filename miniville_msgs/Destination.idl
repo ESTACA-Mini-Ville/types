@@ -1,0 +1,5 @@
+struct Destination
+{
+    string robot_id;
+    int destination_id;
+}
